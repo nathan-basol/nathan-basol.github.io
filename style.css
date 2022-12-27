@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300;400&display=swap');
+
+body {
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #181a1b;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181a1b;
+    position: sticky;
+    top: 0;
+}
+
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+
+nav .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+nav .profile h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+    cursor: pointer;
+    border-bottom: 1px solid #181a1b;
+    font-size: 20px;
+    color: #fff;
+}
+nav ul li:hover {
+    border-bottom-color: #fff;
+}
+ 
+
+
+
+.page-content {
+    margin: 4%
+}
+.page-content header {
+    margin-top: 5%;
+    max-width: 80%;
+}
+.page-content header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+.page-content header p {
+    color: #a7a7a7;
+    font-size: 25px;
+}
+
+.page-content .presentation-image {
+    margin-top: 5%;
+}
+.page-content .presentation-image img {
+    max-width: 100%;
+}
+
+
+.page-content .projects-section h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+.page-content .projects-section .projects {
+    font-size: 25px;
+}
+
+
+.page-content .projects-section .projects .project h4 {
+    margin: 0;
+    margin-top: 3%;
+    color: #fff;
+}
+.page-content .projects-section .projects .project .description {
+    font-size: 18px;
+    color: #fff;
+    max-width: 70%;
+}
+.page-content .projects-section .projects .project .date {
+    font-size: 12px;
+    color: #a7a7a7;
+}
+
+.page-content .presentation-image-2 img {
+    max-width: 100%;
+    margin-top: 3%;
+}
+.page-content .presentation-image-3 img {
+    max-width: 100%;
+    margin-top: 3%;
+}
+
+
+
+
+.page-content .projects-section .projects .project .liens p {
+    font-size: 15px;
+    color: #d41616;
+}
+
+
+
+.page-content .mon-profil .presentation-image-4 img {
+    max-width: 100%;
+    margin-top: 3%;
+}
+
+
+.page-content .mon-profil h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-top: 2%;
+    margin-bottom: auto;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+footer .retrouvez-moi-sur a {
+    text-decoration: none;
+}
+
+footer .me-contacter p{
+    font-size: 15px;
+    color: #a7a7a7;
+}
+
+footer .me-contacter h3 {
+    margin-bottom: 10%;
+    font-size: 18px;
+    margin-top: 6%;
+}
+footer .retrouvez-moi-sur h3 {
+    margin-bottom: 15%;
+    font-size: 18px;
+    margin-top: 8%;
+}
+
+footer .retrouvez-moi-sur .gitlab img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+}
+footer .retrouvez-moi-sur .gitlab img:hover {
+    filter: brightness(50%);
+}
+footer .retrouvez-moi-sur .linkedin img:hover {
+    filter: brightness(50%);
+}
+footer .retrouvez-moi-sur .linkedin img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+footer .retrouvez-moi-sur .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    nav {
+        justify-content: none;
+    }
+    nav ul .mesProjets {
+        display: none;
+    }
+    .page-content header {
+        margin-top: 10%;
+        max-width: 100%;
+    }
+    .page-content .projects-section h2 {
+        font-size: 40px;
+    }
+    .page-content .projects-section .projects .project {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    footer .me-contacter h3 {
+        text-align: center;
+    }
+    footer .me-contacter p {
+        text-align: center;
+    }
+    .page-content header h1 {
+        text-align: center;
+    }
+    .page-content .projects-section .projects .project .description {
+        max-width: 100%;
+    }
+    
+}
